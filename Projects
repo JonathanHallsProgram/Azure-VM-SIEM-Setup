@@ -1,0 +1,27 @@
+📚 Playbook Scenario: Phishing Attack Response
+
+Scenario Overview
+
+In this scenario, a user reports a suspicious email that is suspected to be part of a phishing attack. The playbook is triggered to respond to this incident and mitigate potential risks.
+
+Steps Involved
+
+User Report Trigger: The playbook is initiated when a user reports a suspicious email via a designated reporting mechanism (e.g., Microsoft Teams or an email address).
+
+Email Analysis: The playbook analyzes the reported email using integrated threat intelligence sources and Azure Logic Apps to determine if it is indeed a phishing attempt.
+
+Quarantine Email: If the email is confirmed to be malicious, the playbook automatically quarantines it across the organization to prevent further exposure.
+
+Block Sender: The sender's email address and any associated IP addresses are blocked to prevent future phishing attempts.
+
+Notify Security Team: The security team is notified via Microsoft Teams or email with detailed information about the phishing attempt, including affected users and mitigation actions taken.
+
+User Awareness: An automated message is sent to the affected user, providing guidance on recognizing phishing emails and avoiding future incidents.
+
+Benefits
+
+Rapid Response: Automates the response to phishing attacks, reducing manual intervention and response time.
+
+Threat Containment: Ensures that malicious emails are quarantined and blocked promptly, preventing widespread impact.
+
+User Education: Educates users on identifying phishing threats, contributing to a stronger security culture.
